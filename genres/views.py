@@ -38,4 +38,4 @@ def genre_detail_view(request, pk):
     # Excluir um gênero
     elif request.method == 'DELETE':
         genre.delete()
-        return JsonResponse({'message': 'Genre deleted'}, status=204)
+        return JsonResponse({'message': 'Gênero deletado'}, status=204)
